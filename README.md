@@ -1,6 +1,9 @@
 # 🚀 Dockerized FastAPI App
 - This is a lightweight, containerized web application built with FastAPI, using Redis as a backend service. The app runs on a Uvicorn server and is fully managed using Docker and Docker Compose.
 
+## Docker Archtecture
+![Docker Architecture](./docker%20architecture.svg)
+
 ## 📦 Stack
 - FastAPI – Modern, fast (high-performance) web framework for building APIs
 - Redis – In-memory key-value data store
