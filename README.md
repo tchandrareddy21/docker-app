@@ -14,13 +14,13 @@
 If you're only using the Docker image (and don't have the app source), just download the docker-compose.yml:
 
 ```bash
-    curl -O https://tchandrareddy21/docker-compose.yml
+    curl -O https://raw.githubusercontent.com/tchandrareddy21/docker-app/refs/heads/main/docker-compose.yaml
 ```
 Or clone the repo:
 
 ```bash
     git clone https://github.com/tchandrareddy21/docker-app.git
-    cd your-repo
+    cd docker-app
 ```
 ### ▶️ 2. Run the App
 
