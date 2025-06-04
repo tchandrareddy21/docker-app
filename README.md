@@ -14,18 +14,18 @@
 If you're only using the Docker image (and don't have the app source), just download the docker-compose.yml:
 
 ```bash
-    curl -O https://raw.githubusercontent.com/tchandrareddy21/docker-app/refs/heads/main/docker-compose.yaml
+curl -O https://raw.githubusercontent.com/tchandrareddy21/docker-app/refs/heads/main/docker-compose.yaml
 ```
 Or clone the repo:
 
 ```bash
-    git clone https://github.com/tchandrareddy21/docker-app.git
-    cd docker-app
+git clone https://github.com/tchandrareddy21/docker-app.git
+cd docker-app
 ```
 ### ▶️ 2. Run the App
 
 ```bash
-    docker compose up
+docker compose up
 ```
 - This will:
     - Pull the FastAPI app image from Docker Hub
@@ -44,5 +44,5 @@ Open your browser or a tool like Postman, and visit:
 To stop and remove all containers:
 
 ```bash
-    docker compose down
+docker compose down
 ```
