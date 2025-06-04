@@ -25,7 +25,7 @@ cd docker-app
 ### ▶️ 2. Run the App
 
 ```bash
-docker compose up
+docker compose up -d
 ```
 - This will:
     - Pull the FastAPI app image from Docker Hub
