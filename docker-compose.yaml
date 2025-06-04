@@ -1,0 +1,15 @@
+version: "3.0"
+
+services:
+  web:
+    image: tchandrareddy21/fastapi-redis:latest
+    container_name: fastapi_redis
+    build: .
+    ports:
+      - "8000:8000"
+
+  redis:
+    image: redis
+    container_name: redis_container
+    ports:
+      - "6379:6379"
