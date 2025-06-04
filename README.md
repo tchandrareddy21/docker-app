@@ -37,8 +37,8 @@ Or clone the repo:
 Open your browser or a tool like Postman, and visit:
 
 - Docs UI: http://localhost:8000/docs
-
 - Root endpoint: http://localhost:8000
+- Hit count endpoint: http://localhost:8000/hit_count
 
 ## 🧹 Cleanup
 To stop and remove all containers:
